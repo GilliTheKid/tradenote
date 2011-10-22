@@ -13,7 +13,7 @@ development:
   encoding: unicode
   database: tradenote_development
   pool: 5
-  username: tradenote
+  username: gtk
   password:
 
   # Connect on a TCP socket. Omitted by default since the client uses a
@@ -39,7 +39,7 @@ test:
   encoding: unicode
   database: tradenote_test
   pool: 5
-  username: tradenote
+  username: gtk
   password:
 
 production:
@@ -47,5 +47,5 @@ production:
   encoding: unicode
   database: tradenote_production
   pool: 5
-  username: tradenote
+  username: gtk
   password:
