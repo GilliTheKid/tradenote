@@ -2,6 +2,7 @@
 body {
 	background: whitesmoke;
 	font-family: lemonde-journal,serif;
+	color: #1E2E25;
 }
 
 p {
@@ -9,12 +10,12 @@ p {
 }
 
 a { 
-	color: gold;
+	color: #1E2E25;
 	text-decoration: none;
 }
 
 a:hover {
-	color: #96FF54;
+	color: grey;
 }
 
 a:active {
@@ -26,6 +27,6 @@ h1 {
 }
 
 .footer-text {
-	font-size: 12px;
+	font-size: 11px;
 }
 
