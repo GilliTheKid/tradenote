@@ -1,0 +1,29 @@
+/*Trade Note*/
+body {
+	font-family: lemonde-journal,serif;
+}
+
+p {
+	
+}
+
+a { 
+	text-decoration: none;
+}
+
+a:hover {
+	color: #96FF54;
+}
+
+a:active {
+	
+}
+
+h1 {
+	font-size: 42px;
+}
+
+.footer-text {
+	font-size: 12px;
+}
+
