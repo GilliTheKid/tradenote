@@ -1,5 +1,6 @@
 /*Trade Note*/
 body {
+	background: whitesmoke;
 	font-family: lemonde-journal,serif;
 }
 
@@ -8,6 +9,7 @@ p {
 }
 
 a { 
+	color: gold;
 	text-decoration: none;
 }
 
