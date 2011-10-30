@@ -1,6 +1,11 @@
 Tradenote::Application.routes.draw do
   
   devise_for :members
+  
+  #I'm not sure why this is needed?
+  devise_scope :member do
+    get '/members/sign_out', :to => 'devise/sessions#destroy'
+  end
 
   root :to => "pages#home"
   # The priority is based upon order of creation:

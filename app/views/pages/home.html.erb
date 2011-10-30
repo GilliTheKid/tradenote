@@ -4,7 +4,13 @@
 			<h1><b>tradenote.co</b></h1>
 		</div>
 		<div class="span-11 last" style="text-align: right; padding: 38px 0 0 0">
-			<span style="font-size: 13px">login</span>
+			<span style="font-size: 13px">
+			<% if member_signed_in? %>
+				<%= link_to "sign out " + current_member.email, destroy_member_session_path, :method => :delete %>
+			<% else %>
+				<%= link_to "login", new_member_session_path %>
+			<% end %>
+			</span>
 		</div>
 	</div>
 	<div class="span-12">
